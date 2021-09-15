@@ -1,6 +1,6 @@
 # 1.
 def greeting(name)
-    "Hello " + name
+  "Hello " + name
 end
 
 puts greeting("Steven")
@@ -14,7 +14,7 @@ puts '5) nil'
 
 # 3.
 def multiply(x, y)
-    x * y
+  x * y
 end
 puts multiply(5, 20)
 
@@ -24,8 +24,8 @@ puts multiply(5, 20)
 # 5.
 # 1)
 def scream(words)
-    words = words + "!!!!"
-    puts words
+  words = words + "!!!!"
+  puts words
 end
 
 scream("Yippeee")

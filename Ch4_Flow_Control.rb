@@ -9,11 +9,11 @@
 
 # 2.
 def caps(str)
-    if str.length > 10
-        str.upcase!
-    else
-        puts str
-    end
+  if str.length > 10
+    str.upcase!
+  else
+    puts str
+  end
 end
 
 puts caps('Hey there!')
@@ -25,13 +25,13 @@ puts "Please enter a number."
 num = gets.chomp.to_i
 
 if num < 0
-    puts "This is a negative number."
+  puts "This is a negative number."
 elsif num >= 0 && num <= 50
-    puts "This number is between 0 and 50."
+  puts "This number is between 0 and 50."
 elsif num >= 51 && num <= 100
-    puts "This number is between 51 and 100"
+  puts "This number is between 51 and 100"
 else
-    puts "This number is above 100."
+  puts "This number is above 100."
 end
 
 # 4.

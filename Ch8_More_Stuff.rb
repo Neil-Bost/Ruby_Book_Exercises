@@ -1,10 +1,10 @@
 # 1.
 def has_lab?(string)
-    if string =~ /lab/
-        puts string
-    else
-        puts "does not exist"
-    end
+  if string =~ /lab/
+    puts string
+  else
+    puts "does not exist"
+  end
 end
 
 has_lab?("laboratory")

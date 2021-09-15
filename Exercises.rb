@@ -39,9 +39,9 @@ h.delete_if { |k,v| v < 3.5 }
 # 10.
 # Yes and yes.
 hash_with_arrays = { 
-    team_1: ["Bob", "Chris", "Diana"],
-    team_2: ["Neil", "Nick", "Nelly"],
-    team_3: ["Steve", "Barbara", "Stan"]
+  team_1: ["Bob", "Chris", "Diana"],
+  team_2: ["Neil", "Nick", "Nelly"],
+  team_3: ["Steve", "Barbara", "Stan"]
 }
 
 array_of_hashes = [{first: 0}, {second: 1}, {third: 2}]

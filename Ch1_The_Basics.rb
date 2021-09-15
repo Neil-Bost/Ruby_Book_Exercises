@@ -12,10 +12,10 @@ puts "My four digit number is 1234"
 
 # 3.
 movies = {
-    Coda: 2021,
-    Spirited_Away: 2001,
-    Howls_Moving_castle: 2004,
-    The_Princess_Bride: 1987
+  Coda: 2021,
+  Spirited_Away: 2001,
+  Howls_Moving_castle: 2004,
+  The_Princess_Bride: 1987
 }
 movies.each { |k, v| puts v }
 

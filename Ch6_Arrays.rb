@@ -3,7 +3,7 @@ arr = [1, 3, 5, 7, 9, 11]
 number = 3
 
 if arr.include?(number)
-    puts "#{number} is in this array."
+  puts "#{number} is in this array."
 end
 
 # 2.
@@ -55,7 +55,7 @@ array = [5, 4, 109, 3, 77, 4, 54, 2]
 array_plus_two = []
 
 array.each do |x|
-    array_plus_two << (x + 2)
+  array_plus_two << (x + 2)
 end
 p array
 p array_plus_two

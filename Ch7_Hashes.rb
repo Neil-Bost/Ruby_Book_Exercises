@@ -1,9 +1,9 @@
 # 1.
 family = { 
-    uncles: ["Bob", "Joe", "Steve"],
-    sisters: ["Jane", "Jill", "Beth"],
-    brothers: ["Frank", "Rob", "David"],
-    aunts: ["Mary", "Sally", "Susan"]
+  uncles: ["Bob", "Joe", "Steve"],
+  sisters: ["Jane", "Jill", "Beth"],
+  brothers: ["Frank", "Rob", "David"],
+  aunts: ["Mary", "Sally", "Susan"]
 }
 
 immediate_family = family.select { |k, v| (k == :sisters || k == :brothers) }
@@ -12,9 +12,9 @@ print immediate_family.values.flatten
 
 # 2.
 original_hash = {
-    first: 0,
-    second: 1,
-    third: 2
+  first: 0,
+  second: 1,
+  third: 2
 }
 new_hash = { fourth: 3 }
 
@@ -26,10 +26,10 @@ puts original_hash
 
 # 3.
 my_hash = {
-    first: 0,
-    second: 1,
-    third: 2,
-    fourth: 3
+  first: 0,
+  second: 1,
+  third: 2,
+  fourth: 3
 }
 
 my_hash.each_key { |k| puts k }
@@ -45,9 +45,9 @@ person[:name]
 
 # 5.
 if person.value?("Nick")
-    puts "It's in there!"
+  puts "It's in there!"
 else
-    puts "It ain't in there!"
+  puts "It ain't in there!"
 end
 
 
